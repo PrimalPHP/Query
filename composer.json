@@ -1,0 +1,29 @@
+{
+	"name": "primal/query",
+	"description": "Chain-able asynchronous query builder for MySQL PDO",
+	"homepage": "http://github.com/PrimalPHP/Query",
+	"license": "MIT",
+	"keywords": ["database", "mysql", "query", "pdo"],
+	"authors": [
+		{
+			"name": "Jarvis Badgley",
+			"homepage": "http://chipersoft.com",
+			"email": "primal@chipersoft.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"type": "library",
+	"autoload": {
+        "psr-0": {
+            "Primal\\Database": "lib\/",
+			"DB": "lib\/"
+        }
+    },
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
