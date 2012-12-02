@@ -1,5 +1,5 @@
 <?php 
-namespace Primal\Query\MySQL;
+namespace Primal\Database\MySQL;
 use \PDO;
 use \DateTime;
 
